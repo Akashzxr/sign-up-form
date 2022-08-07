@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #3c1f3c;
+    font-family: 'Rubik', sans-serif;
+}
+.contents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #141431;
+    margin-top: 40px;
+    padding-top: 13px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 20px;
+    gap: 20px;
+    box-shadow: 0px 0px 20px 0px black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*signup section*/
+.signup-section{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 709px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+ img{
+    height: 700px;
+    width: 497px;
+ }
+ .welcome-text{
+    background-color: rgb(37, 21, 79);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    border-radius: 20px;
+ }
+ input{
+    width: 300px;
+    border-radius: 10px;
+    height: 25px;
+ }
+
+ #submit-btn{
+    background-color: green;
+    color: white;
+    border: none;
+    width: 141px;
+    height: 41px;
+    border-radius: 10px;
+    font-size: 16px;
+    box-shadow: 1px 1px 1px white;
+    align-self: center;
+    margin-top: 30px;
+ }
+
+ #submit-btn:hover{
+    translate: 1px 3px;
+    cursor: pointer;
+ }
+ #submit-btn:focus{
+    background-color: rgb(101, 187, 93);
+ }
+ .login{
+    color: green;
+    font-size: 23px;
+    font-weight: bold;
+ }
+ .login:hover{
+    cursor: pointer;
+    color:  rgb(101, 187, 93);
+ }
+ a{
+    text-decoration: none;
+    color: white;
+ }
+ .footer{
+    color:white;
+    font-size: 20px;
+ }
